@@ -1,0 +1,65 @@
+{
+  "metadata": {
+    "id": "standard_sequence_1",
+    "title": "Full Body Beginner Flow",
+    "category": "full_body",
+    "defaultLoopCount": 1,
+    "tempo": "medium"
+  },
+  "assets": {
+    "images": {
+      "cobra": "cobra.png",
+      "dog": "downward_dog.png",
+      "plank": "plank.jpg"
+    },
+    "audio": {
+      "cobra": "cobra.mp3",
+      "dog": "downward_dog.mp3",
+      "plank": "cat_cow_intro.mp3"
+    }
+  },
+  "sequence": [
+    {
+      "type": "segment",
+      "name": "sequence1",
+      "audioRef": "cobra",
+      "durationSec": 10,
+      "script": [
+        {
+          "text": "This is Cobra Pose. Feel the stretch in your spine.",
+          "startSec": 0,
+          "endSec": 10,
+          "imageRef": "cobra"
+        }
+      ]
+    },
+    {
+      "type": "segment",
+      "name": "sequence2",
+      "audioRef": "dog",
+      "durationSec": 12,
+      "script": [
+        {
+          "text": "Move into Downward Dog. Press your heels down.",
+          "startSec": 0,
+          "endSec": 12,
+          "imageRef": "dog"
+        }
+      ]
+    },
+    {
+      "type": "segment",
+      "name": "sequence3",
+      "audioRef": "plank",
+      "durationSec": 15,
+      "script": [
+        {
+          "text": "Now move into Plank Pose. Keep your body aligned and strong.",
+          "startSec": 0,
+          "endSec": 15,
+          "imageRef": "plank"
+        }
+      ]
+    }
+  ]
+}

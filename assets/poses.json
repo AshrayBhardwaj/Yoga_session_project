@@ -1,0 +1,20 @@
+[
+  {
+    "pose_name": "Mountain Pose",
+    "image_path": "mountain.png",
+    "audio_path": "mountain.mp3",
+    "duration": 5
+  },
+  {
+    "pose_name": "Tree Pose",
+    "image_path": "tree.png",
+    "audio_path": "tree.mp3",
+    "duration": 6
+  },
+  {
+    "pose_name": "Cobra Pose",
+    "image_path": "cobra.png",
+    "audio_path": "cobra.mp3",
+    "duration": 5
+  }
+]
